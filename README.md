@@ -2,6 +2,17 @@
 
 A common utility to help other projects to leverage the conversion from one Type to another. For example, Bussiness objects could be different from the Entity object. The classes which converts TypeA to TypeB in most generic sense can be "Converters".
 
+The latest version of base-converter can be found in maven artifact as 
+
+```
+<!-- https://mvnrepository.com/artifact/com.github.dibyaranjan/base-converter -->
+<dependency>
+    <groupId>com.github.dibyaranjan</groupId>
+    <artifactId>base-converter</artifactId>
+    <version>0.5-beta</version>
+</dependency>
+```
+
 <h3>When can I use this library?</h3>
 This library can be used anywhere there is a requirement of converting TypeA to TypeB. For example, there is a need to save details of a Person to a database.
 If normal form is followed, the POJO representing the Entity would look like
