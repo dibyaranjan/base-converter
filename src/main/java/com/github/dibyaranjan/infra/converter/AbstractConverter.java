@@ -13,8 +13,10 @@ import org.joda.time.format.DateTimeFormatter;
  * class has the control over the conversion of types by implementing the
  * abstract method.
  *
+ * @see SimpleObjectConverter
  * @author Dibya Ranjan
  */
+@Deprecated
 public abstract class AbstractConverter implements NestedConverter {
     protected Converter converter;
 

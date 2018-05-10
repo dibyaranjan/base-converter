@@ -1,11 +1,17 @@
-package com.github.dibyaranjan.infra.converter;
+package com.github.dibyaranjan.infra.converter.factory;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
+import com.github.dibyaranjan.infra.converter.Converter;
 import com.github.dibyaranjan.infra.converter.vo.SourceTargetValue;
 
+/**
+ * A factory method to create and register new Type specific converters.
+ *
+ * @author Dibya
+ */
 public class ConverterFactory {
 	private Map<SourceTargetValue, Class<?>> converterRegistry;
 
